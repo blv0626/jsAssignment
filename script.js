@@ -5,6 +5,7 @@ for (let i = 0; i < elements.length; i++) {
 
   if (el.innerText.includes("here")) {
     el.style.backgroundColor = "blue";
+    el.style.color = "white";
   } else {
     el.style.backgroundColor = "black";
     el.style.color = "white";
